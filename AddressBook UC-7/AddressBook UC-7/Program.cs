@@ -13,7 +13,7 @@ namespace AddressBook_UC_7
             name.Add(Console.ReadLine());
             Console.WriteLine("Enter the Person2 Name");
             name.Add(Console.ReadLine());
-            Console.WriteLine("Enter the Person3 Name");
+            Console.WriteLine("Enter the Person3 Name ");
             name.Add(Console.ReadLine());
 
             List<string> uniqueList = name.Distinct().ToList();
