@@ -13,7 +13,7 @@ namespace AddressBook_UC_9
             listPersonsInCity.Add(new Person("Raj", "Ram", "134.sdf", "7896541235", "Kochi", "Kerala", "621654", "qwe@gmail.com"));
             listPersonsInCity.Add(new Person("Vijay", "Kamal", "143,ghj.", "9584235874", "Bangalore", "Karnataka", "635541", "bac@gmail.com"));
 
-            Console.WriteLine("Find a Name of a Person in State Kerala");
+            Console.WriteLine("Find a Name of a Person in State Kerala ");
             foreach (Person person in listPersonsInCity.FindAll(e => (e.State == "Kerala")).Take(1).ToList())
             {
                 Console.WriteLine("Name : " + person.FirstName);
